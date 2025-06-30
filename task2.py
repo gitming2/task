@@ -24,7 +24,7 @@ class GradedStudent(Student):
         # 기본점수 : 60점, 최대 추가 점수 : 40점 
         # 최대 공부시간 8시간으로 시간에 비례해서 점수 추가
         # YOUR CODE HERE
-        if hours < 5:
+        if hours < 8:
             random_score = 60 + hours * 5
             self.add_score(random_score)
         else:
